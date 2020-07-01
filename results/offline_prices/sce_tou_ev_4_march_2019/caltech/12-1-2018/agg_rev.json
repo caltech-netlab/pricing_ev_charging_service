@@ -1,0 +1,10 @@
+{
+  "energy": 632.191528627263,
+  "demand_charge": 595.7083399680567,
+  "charger_congestion": 65.55759641686517,
+  "network_congestion": 9.283895754761126,
+  "session_price": 1302.741357895813,
+  "total": 1302.7413607669437,
+  "energy_delivered": 8645.625633320096,
+  "energy_requested": 8645.625633333337
+}

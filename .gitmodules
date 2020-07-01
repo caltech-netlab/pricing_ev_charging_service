@@ -1,0 +1,7 @@
+[submodule "acnportal"]
+	path = acnportal
+	url = https://github.com/zach401/acnportal
+	branch = algorithm_pipelines
+[submodule "adacharge"]
+	path = adacharge
+	url = https://github.com/zach401/adacharge
