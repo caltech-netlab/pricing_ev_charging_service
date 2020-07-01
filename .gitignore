@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Other files
+/depreciated
+.idea
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
