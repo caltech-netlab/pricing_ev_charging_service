@@ -127,10 +127,8 @@ def run_and_store(start, end, site, tariff_name, peak_hint=False, quick_charge_c
 if __name__ == '__main__':
     SOLVER = 'ECOS'
     OUTPUT_DIR = 'results/max_len_144/online_cost_minimization-peak_hint-quick_charge_1e-4-max_len_144-rho_200/'
-    # dates = [f'{m}-1-2019' for m in range(1, 9)]
-    # sites = ['caltech', 'jpl']
-    dates = [f'{m}-1-2019' for m in range(1, 3)]
-    sites = ['caltech']
+    dates = [f'{m}-1-2019' for m in range(1, 9)]
+    sites = ['caltech', 'jpl']
     tariff_name = 'sce_tou_ev_4_march_2019'
     for site in sites:
         for i in range(len(dates)-1):

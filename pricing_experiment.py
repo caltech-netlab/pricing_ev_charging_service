@@ -112,7 +112,7 @@ def run_and_store(start, end, site, tariff_name, primal=True):
 # Run experiments.
 EXPERIMENT_DIR = 'test_results2/'
 if __name__ == '__main__':
-    dates = [f'{m}-1-2019' for m in range(1, 3)]
+    dates = [f'{m}-1-2019' for m in range(1, 9)]
     sites = ['caltech', 'jpl']
     tariff_name = 'sce_tou_ev_4_march_2019'
     for site in sites:
