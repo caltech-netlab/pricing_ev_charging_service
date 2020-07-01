@@ -23,7 +23,6 @@ from acnportal.signals import tariffs
 from utils import get_infrastructure
 from pricing_rule import *
 
-# EXPERIMENT_DIR = 'results/max_len_144/costs_and_prices_offline_dual_with_laxity_max_len_144/'
 TIMEZONE = pytz.timezone('America/Los_Angeles')
 PERIOD = 5  # minute
 VOLTAGE = 208  # volts
@@ -110,7 +109,7 @@ def run_and_store(start, end, site, tariff_name, primal=True):
 
 
 # Run experiments.
-EXPERIMENT_DIR = 'test_results2/'
+EXPERIMENT_DIR = 'results/offline_prices'
 if __name__ == '__main__':
     dates = [f'{m}-1-2019' for m in range(1, 9)]
     sites = ['caltech', 'jpl']
