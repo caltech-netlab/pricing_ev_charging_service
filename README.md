@@ -1,3 +1,5 @@
+[![DOI](https://data.caltech.edu/badge/257207665.svg)](https://data.caltech.edu/badge/latestdoi/257207665)
+
 # Pricing EV Charging Service with Demand Charge
 This code and data are the companion to the paper *Pricing EV Charging Service with Demand Charge* which will appear in PSCC 2020.
 
