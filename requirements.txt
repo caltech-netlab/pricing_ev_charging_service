@@ -34,7 +34,7 @@ Mosek==9.2.14
 nbconvert==5.6.1
 nbformat==5.0.7
 notebook==6.0.3
-numpy==1.19.0
+numpy==1.22.0
 osqp==0.6.1
 packaging==20.4
 pandas==1.0.5
